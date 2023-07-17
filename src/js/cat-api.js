@@ -1,7 +1,7 @@
 'use strict';
 
 import Notiflix from 'notiflix';
-import { loaderTextRef, errorRef } from '../index.js';
+import { loaderTextRef, errorRef } from './index.js';
 
 const urlAllBreeds = `https://api.thecatapi.com/v1/breeds`;
 const urlSearchBreed = 'https://api.thecatapi.com/v1/images/search';
